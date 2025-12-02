@@ -16,3 +16,4 @@ if __name__ == "__main__":
     print(tablero1) #debería llamar a mostrar_tablero()
 
 print("cambio prueba")
+print("Cambio prueba2")
