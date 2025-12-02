@@ -14,3 +14,5 @@ class Tablero:
 if __name__ == "__main__":
     tablero1 = Tablero(3,9) #creo objeto
     print(tablero1) #debería llamar a mostrar_tablero()
+
+print(cambio prueba)
