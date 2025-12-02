@@ -8,7 +8,8 @@
 
 ### Paso 1
 
-Una vez listo el repositorio en github con los archivos del ejercicio de `hundir la flota` y clonado localmente, accedo al repositorio de github y modifico el archivo `tablero.py`
+Una vez listo el repositorio en github con los archivos del ejercicio de `hundir la flota` y clonado localmente, accedo al repositorio de github y 
+modifico el archivo `tablero.py`
 
 ![tablero](./images/mod_tablero.png)
 
@@ -74,3 +75,23 @@ git commit -am "Segundo commit local"
 Sincronizo con `rebase`.
 
 ![pull-rebase](./images/pull_rebase.png) 
+
+## Parte 3
+
+Modifico `tablero.py` en remoto.
+
+![tablero](./images/cambio3_tablero.png)
+
+Hago cambios en `barco.py` y creo un `commit` local.
+
+![barco2](./images/cambios2_barco.png)
+
+Utilizo `fetch` de `pycharm`.
+
+![pc-fetch](./images/pc_fetch.png)
+
+Después uso `merge`
+
+![pc-merge](./images/pc_merge.png)
+
+Para terminar hago un último pull con las actualizaciones del `Readme`
